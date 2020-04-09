@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kaustubh Constructions</title>
+        <link rel="stylesheet" type="text/css" href="design.css">
+    </head>
+    <body>
+            <div class="up">
+                <table width="100%">
+                    <tr>
+                        <td width="100px">
+                                <img src="Images/images.png" height="100px" width="100px" align="left">
+                        </td>
+                        <th>
+                                Contact us:<br>
+                                Phone:  +91 9258712650<br>
+                                E-Mail: kaustubhvats08@gmail.com<br>
+                        </th>
+                        <td>
+                            <img src="Images/logoLogin.png" height="10px">
+                            <button id="loginbutton" type=button onclick="fun()">Login</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="login" class="form">
+                LOG IN
+                <form>
+                <table>
+                    <tr>
+                        <th>Name: </th>
+                        <td><input type="text" placeholder="Name" id="name1" required><br></td>
+                    </tr>
+                    <tr>
+                        <th>E-Mail: </th>
+                        <td><input type="email" placeholder="E Mail" required><br></td>
+                    </tr>
+                    <tr>
+                        <th>Password: </th>
+                        <td><input type="password" placeholder="Password" required><br></td>
+                    </tr>
+                    <tr>
+                            <td colspan="2"><button type="submit" class="sub" onclick="change()">Log-In</button></td>
+                        </tr>
+                    <tr>
+                        <td colspan="2">Not Registered<button class="button" type="button" onclick="nR()">Sign-Up</button></td>
+                    </tr>
+                    <tr>
+                            <td colspan="2">Forget Password<button class="button" type="button" onclick="forget()">click here</button></td>
+                    </tr>
+                </table>
+                </form>
+            </div>
+            <div id="signup" class="form">
+                    Welcome New User
+                    <form>
+                    <table>
+                        <tr>
+                            <th>Name: </th>
+                            <td><input type="text" placeholder="Name" id="name2" required><br></td>
+                        </tr>
+                        <tr>
+                            <th>E-Mail: </th>
+                            <td><input type="email" placeholder="E Mail" required><br></td>
+                        </tr>
+                        <tr>
+                            <th>Create Password: </th>
+                            <td><input type="password" placeholder="Password" required><br></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><button type="submit" class="sub" onclick="change()">Sign-In</button></td>
+                            </tr>
+                        <tr>
+                            <td colspan="2">Already a User<button class="button" type="button" onclick="fun()">Log-In</button></td>
+                        </tr>
+                    </table>
+                    </form>
+                </div>
+                <div id="pass" class="form">
+                        Password Recovery
+                        <form>
+                            <p id="txt">You will recieve an OTP on your email</p>
+                        <table>
+                            <tr>
+                                <th>E-Mail: </th>
+                                <td><input type="email" placeholder="E Mail" required><br></td>
+                            </tr>
+                            <tr id="before">
+                               <td colspan="2"><button class="sub" onclick="otp()">Click here to get OTP</button></td> 
+                            </tr>
+                            <tr class="after">
+                                <th>OTP</th>
+                                <td><input type="password" placeholder="OTP" required><br></td>
+                            </tr>
+                            <tr class="after">
+                                    <td colspan="2"><button type="submit" class="sub" onclick="fun()">Submit</button></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Back to login<button class="button" type="button" onclick="fun()">Sign-Up</button></td>
+                            </tr>
+                        </table>
+                        </form>
+                    </div>
+        <table class="navig" width="100%">
+            <tr>
+            <th><a href="Home.html">Home</a></th>
+            <th><a href="aboutus.html">About Us</a></th>
+            <th><a href="OurBuss.html">Our Business</a></th>
+            <th><a href="projects.html">Projects</a></th>
+            <th><a href="media.html">Media</a></th>
+            <th><a href="career.html">Career</a></th>
+            <th><a href="contactus.html">Contact Us</a></th>
+            </tr>
+        </table>
+
+        media
+        
+    <script src="back.js"></script>
+    </body>
+</html>

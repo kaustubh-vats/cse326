@@ -1,0 +1,62 @@
+.up,body{
+    margin: 0px;
+    text-align: center;
+    padding: 0px;
+    color:White;
+    background-image: linear-gradient(to bottom right, rgba(23, 3, 238, 0.883), rgba(6, 247, 214, 0.876));
+}
+.form{
+        display: none;
+        position: fixed;
+        top: 50;
+        right: 15px;
+        border: 3px solid #f1f1f1;
+        z-index: 9;
+        background-image: linear-gradient(to bottom left,yellow,red);
+}
+.about{
+    float: left;
+    background-image: linear-gradient(to bottom left,yellow,orange);
+    font-size: 20px;
+    height:300px;
+    width:500px;
+    margin: 20px;
+    padding: 20px;
+    color: black;
+}
+#loginbutton{
+    background-color: transparent;
+    border: 0px;
+    color:White;
+}
+.button{
+    background-color: transparent;
+    border: 0px;
+    color:blue;
+    text-decoration: underline;
+}
+.sub{
+    padding-left:20px;
+    padding-right:20px;
+    color:white;
+    background-color: rgba(36, 204, 7, 0.863);
+    border: none;
+    border-radius: 20px;
+}
+.navig th{
+    background-image: linear-gradient(to bottom left, yellow,orange);
+    color: white;
+    font-size: 25px;
+    border: 1px solid white;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.sscontainer img{
+    margin: 1%;
+    width: 98%;
+    height: 400px;
+    object-fit: cover;
+}

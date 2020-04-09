@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kaustubh Constructions</title>
+        <link rel="stylesheet" type="text/css" href="design.css">
+    </head>
+    <body>
+            <div class="up">
+                <table width="100%">
+                    <tr>
+                        <td width="100px">
+                                <img src="Images/images.png" height="100px" width="100px" align="left">
+                        </td>
+                        <th>
+                                Contact us:<br>
+                                Phone:  +91 9258712650<br>
+                                E-Mail: kaustubhvats08@gmail.com<br>
+                        </th>
+                        <td>
+                            <img src="Images/logoLogin.png" height="10px">
+                            <button id="loginbutton" type=button onclick="fun()">Login</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="login" class="form">
+                LOG IN
+                <form>
+                <table>
+                    <tr>
+                        <th>Name: </th>
+                        <td><input type="text" placeholder="Name" id="name1" required><br></td>
+                    </tr>
+                    <tr>
+                        <th>E-Mail: </th>
+                        <td><input type="email" placeholder="E Mail" required><br></td>
+                    </tr>
+                    <tr>
+                        <th>Password: </th>
+                        <td><input type="password" placeholder="Password" required><br></td>
+                    </tr>
+                    <tr>
+                            <td colspan="2"><button type="submit" class="sub" onclick="change()">Log-In</button></td>
+                        </tr>
+                    <tr>
+                        <td colspan="2">Not Registered<button class="button" type="button" onclick="nR()">Sign-Up</button></td>
+                    </tr>
+                    <tr>
+                            <td colspan="2">Forget Password<button class="button" type="button" onclick="forget()">click here</button></td>
+                    </tr>
+                </table>
+                </form>
+            </div>
+            <div id="signup" class="form">
+                    Welcome New User
+                    <form>
+                    <table>
+                        <tr>
+                            <th>Name: </th>
+                            <td><input type="text" placeholder="Name" id="name2" name="Name" required><br></td>
+                        </tr>
+                        <tr>
+                            <th>E-Mail: </th>
+                            <td><input type="email" placeholder="E Mail" name="EMail" required><br></td>
+                        </tr>
+                        <tr>
+                            <th>Create Password: </th>
+                            <td><input type="password" placeholder="Password" name="Password" required><br></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><button type="submit" class="sub" onclick="change()">Sign-In</button></td>
+                            </tr>
+                        <tr>
+                            <td colspan="2">Already a User<button class="button" type="button" onclick="fun()">Log-In</button></td>
+                        </tr>
+                    </table>
+                    </form>
+                </div>
+                <div id="pass" class="form">
+                        Password Recovery
+                            <p id="txt">You will recieve an OTP on your email</p>
+                            <form>
+                        <table>
+                            <tr>
+                                <th>E-Mail:</th>
+                                <td><input type="email" placeholder="E Mail" required><br></td>
+                            </tr>
+                            <tr id="before">
+                               <td colspan="2"><button class="sub" onclick="otp()">Click here to get OTP</button></td><br> 
+                            </tr>
+                        </form>
+                    </table>
+                    <table>
+                        <form>
+                            <tr class="after">
+                                <th>OTP: </th>
+                                <td><input type="password" placeholder="OTP" required><br></td>
+                            </tr>
+                            <tr class="after">
+                                    <td colspan="2"><button type="submit" class="sub" onclick="fun()">Submit</button><br></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Back to login<button class="button" type="button" onclick="fun()">Sign-Up</button></td>
+                            </tr>
+                        </form>
+                        </table>
+                    </div>
+        <table class="navig" width="100%">
+            <tr>
+            <th><a href="Home.html">Home</a></th>
+            <th><a href="aboutus.html">About Us</a></th>
+            <th><a href="OurBuss.html">Our Business</a></th>
+            <th><a href="projects.html">Projects</a></th>
+            <th><a href="media.html">Media</a></th>
+            <th><a href="career.html">Career</a></th>
+            <th><a href="contactus.html">Contact Us</a></th>
+            </tr>
+        </table>
+        <div class="sscontainer">
+            <img src="Images/SlideShow/1.jpg" class="Slideshow">
+            <img src="Images/SlideShow/2.jpg" class="Slideshow">
+            <img src="Images/SlideShow/3.jpg" class="Slideshow">
+            <img src="Images/SlideShow/4.jpg" class="Slideshow">
+            <img src="Images/SlideShow/5.jpg" class="Slideshow">
+            <img src="Images/SlideShow/6.jpg" class="Slideshow">
+            <img src="Images/SlideShow/7.jpg" class="Slideshow">
+            <img src="Images/SlideShow/8.jpg" class="Slideshow">
+            <img src="Images/SlideShow/9.jpg" class="Slideshow">
+        </div>
+        <div class="about">
+            <h3>Who We are</h3>
+            <img src="Images/images.png" height="100px" width="100px">
+            <p>
+                We are serving you since 1990. We have worked a lot and achieved a lot of love by your side and also we have some respect and honur by Indian government.
+            </p>
+            <a href="aboutus.html">Read more</a>
+        </div>
+        <div style="margin: 20px; padding: 20px;">
+            <video width="500" height="300" autoplay loop controls>
+                <source src="Videos/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    <script src="back.js"></script>
+    </body>
+
+</html>
