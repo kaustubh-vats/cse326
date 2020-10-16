@@ -5,6 +5,12 @@
     color:White;
     background-image: linear-gradient(to bottom right, rgba(23, 3, 238, 0.883), rgba(6, 247, 214, 0.876));
 }
+body{
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 100%;
+    background: linear-gradient(to bottom right, rgba(23, 3, 238, 0.883), rgba(6, 247, 214, 0.876));
+}
 .form{
         display: none;
         position: fixed;
@@ -59,4 +65,17 @@ a{
     width: 98%;
     height: 400px;
     object-fit: cover;
+}
+.navig th:hover{
+    width: 240px;
+    background-image: linear-gradient(to bottom left, rgb(0, 255, 0),rgb(0, 225, 255));
+}
+h1{
+    animation: slide 3s ease-in-out;
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+@keyframes slide{
+    0%{ transform: translateX(-100%);}
+    100%{ transform: translateX(0%);}
 }
